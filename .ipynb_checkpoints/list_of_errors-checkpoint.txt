@@ -1,0 +1,4 @@
+These are the list of errors I got:
+1.  malformed node or string: ['Action', 'Adventure', 'Fantasy', 'Science Fiction'] while
+preprocessing the data while trying to convert. you cant pass a dict in ast.literal_eval
+2. TypeError: the JSON object must be str, bytes or bytearray, not list while trying to implement the list_to_dict function. JSON object was not str so that was caused it.
